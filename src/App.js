@@ -27,7 +27,7 @@ function App() {
       />
       {/* <Navbar /> */}
       <div className="container">
-        <TextForm heading="Enter the text to analyze below" />
+        <TextForm heading="Enter the text to analyze below" mode={mode} />
       </div>
       {/* <About /> */}
     </>
